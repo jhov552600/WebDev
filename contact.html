@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Discover Benguet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-mountain" style="font-size: 2rem;"></i>
+                <span>Discover Benguet</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="activities.html">Activities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="guide.html">Travel Guide</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="section-padding bg-light-gray">
+        <div class="container">
+            <!-- Header -->
+            <div class="text-center mb-5">
+                <h1 class="display-4 fw-bold mb-4">Get in Touch</h1>
+                <p class="fs-5 text-gray-600">Have questions about visiting Benguet? We're here to help plan your perfect mountain getaway</p>
+            </div>
+
+            <!-- Contact Info Cards -->
+            <div class="row g-4 mb-5">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <div class="icon-circle">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <h5 class="card-title">Visit Us</h5>
+                            <p class="text-muted small mb-3">Our office location</p>
+                            <p class="text-gray-700">
+                                Benguet Provincial Capitol<br>
+                                La Trinidad, Benguet<br>
+                                Philippines 2601
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <div class="icon-circle">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <h5 class="card-title">Call Us</h5>
+                            <p class="text-muted small mb-3">We're available to assist</p>
+                            <p class="text-gray-700">
+                                Phone: +63 74 422-2660<br>
+                                Mobile: +63 123 456 7890<br>
+                                Fax: +63 74 422-2661
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <div class="icon-circle">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h5 class="card-title">Email Us</h5>
+                            <p class="text-muted small mb-3">Send us a message</p>
+                            <p class="text-gray-700">
+                                info@discoverbenguet.com<br>
+                                tourism@benguet.gov.ph<br>
+                                support@discoverbenguet.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form and Additional Info -->
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="card h-100">
+                        <div class="card-body p-4">
+                            <h3 class="mb-2">Send Us a Message</h3>
+                            <p class="text-muted mb-4">Fill out the form below and we'll respond within 24 hours</p>
+
+                            <form id="contact-form">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name *</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Your full name" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email *</label>
+                                    <input type="email" class="form-control" id="email" placeholder="your.email@example.com" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">Subject *</label>
+                                    <input type="text" class="form-control" id="subject" placeholder="What is this about?" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message *</label>
+                                    <textarea class="form-control" id="message" rows="6" placeholder="Tell us more about your inquiry..." required></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-emerald btn-lg w-100">
+                                    <i class="fas fa-paper-plane me-2"></i>
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- Office Hours -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title d-flex align-items-center gap-2 mb-4">
+                                <i class="fas fa-clock text-emerald-600"></i>
+                                Office Hours
+                            </h5>
+                            <div class="d-flex justify-content-between pb-2 border-bottom mb-2">
+                                <span class="fw-medium">Monday - Friday</span>
+                                <span class="text-gray-600">8:00 AM - 5:00 PM</span>
+                            </div>
+                            <div class="d-flex justify-content-between pb-2 border-bottom mb-2">
+                                <span class="fw-medium">Saturday</span>
+                                <span class="text-gray-600">9:00 AM - 3:00 PM</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span class="fw-medium">Sunday</span>
+                                <span class="text-gray-600">Closed</span>
+                            </div>
+                            <p class="small text-muted mt-3 mb-0">* Closed on public holidays</p>
+                        </div>
+                    </div>
+
+                    <!-- Plan Your Visit -->
+                    <div class="card bg-emerald text-white mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title mb-3">Plan Your Visit</h5>
+                            <p class="mb-3">Looking to plan your trip to Benguet? Our team can help you with:</p>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check text-emerald-300 me-2"></i> Customized itinerary planning</li>
+                                <li class="mb-2"><i class="fas fa-check text-emerald-300 me-2"></i> Accommodation recommendations</li>
+                                <li class="mb-2"><i class="fas fa-check text-emerald-300 me-2"></i> Transportation arrangements</li>
+                                <li class="mb-2"><i class="fas fa-check text-emerald-300 me-2"></i> Local guide services</li>
+                                <li class="mb-2"><i class="fas fa-check text-emerald-300 me-2"></i> Cultural experience packages</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- FAQ -->
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title mb-4">Frequently Asked</h5>
+                            <div class="mb-3">
+                                <p class="fw-medium mb-1">How long does it take to get to Benguet from Manila?</p>
+                                <p class="small text-gray-600 mb-0">Approximately 6-7 hours by bus or private vehicle, depending on traffic and route.</p>
+                            </div>
+                            <div class="mb-3">
+                                <p class="fw-medium mb-1">What's the best time to visit?</p>
+                                <p class="small text-gray-600 mb-0">November to February for cool, dry weather and the famous sea of clouds.</p>
+                            </div>
+                            <div>
+                                <p class="fw-medium mb-1">Do I need a guide?</p>
+                                <p class="small text-gray-600 mb-0">While not required for most areas, a local guide is highly recommended for mountain treks.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Map Section -->
+            <div class="card rounded-2xl mt-5">
+                <div class="card-body p-5 text-center">
+                    <h2 class="display-6 fw-bold mb-3">Find Us</h2>
+                    <p class="text-gray-600 mb-4">Benguet is located in the Cordillera Administrative Region of Northern Luzon, Philippines</p>
+                    <div class="bg-light-gray rounded-xl d-flex align-items-center justify-content-center" style="height: 24rem;">
+                        <div class="text-center">
+                            <i class="fas fa-map-marker-alt text-emerald-600" style="font-size: 4rem;"></i>
+                            <p class="text-gray-600 mt-3 mb-2">Interactive map would be displayed here</p>
+                            <p class="small text-muted">La Trinidad, Benguet Province, Philippines</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <i class="fas fa-mountain text-emerald-600"></i>
+                        <span class="text-white fw-bold">Discover Benguet</span>
+                    </div>
+                    <p class="small">Experience the breathtaking beauty and rich culture of Benguet, the salad bowl of the Philippines.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Quick Links</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="guide.html">Travel Guide</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Contact Info</h3>
+                    <ul class="list-unstyled small">
+                        <li>Email: info@discoverbenguet.com</li>
+                        <li>Phone: +63 123 456 7890</li>
+                        <li>Location: Benguet Province, Philippines</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Discover Benguet. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

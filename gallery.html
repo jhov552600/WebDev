@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Discover Benguet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-mountain" style="font-size: 2rem;"></i>
+                <span>Discover Benguet</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="activities.html">Activities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="guide.html">Travel Guide</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="section-padding bg-light-gray">
+        <div class="container">
+            <!-- Header -->
+            <div class="text-center mb-5">
+                <h1 class="display-4 fw-bold mb-4">Photo Gallery</h1>
+                <p class="fs-5 text-gray-600">Explore the breathtaking beauty of Benguet through our curated collection of images</p>
+            </div>
+
+            <!-- Category Filter -->
+            <div class="d-flex flex-wrap justify-content-center gap-3 mb-5">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="landscapes">Landscapes</button>
+                <button class="filter-btn" data-filter="agriculture">Agriculture</button>
+                <button class="filter-btn" data-filter="nature">Nature</button>
+                <button class="filter-btn" data-filter="culture">Culture</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="row g-4 mb-5">
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="gallery-item" data-category="landscapes">
+                        <img src="https://images.unsplash.com/photo-1711076206768-458e5108634b?w=600" alt="Mountain Terraces">
+                        <div class="gallery-item-overlay">
+                            <div>
+                                <h5 class="fw-bold">Mountain Terraces</h5>
+                                <p class="small">Landscapes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="gallery-item" data-category="agriculture">
+                        <img src="https://images.unsplash.com/photo-1706461226498-9e91d865d794?w=600" alt="Strawberry Farm">
+                        <div class="gallery-item-overlay">
+                            <div>
+                                <h5 class="fw-bold">Strawberry Farm</h5>
+                                <p class="small">Agriculture</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="gallery-item" data-category="landscapes">
+                        <img src="https://images.unsplash.com/photo-1563175544-9759b48523b9?w=600" alt="Rice Terraces">
+                        <div class="gallery-item-overlay">
+                            <div>
+                                <h5 class="fw-bold">Rice Terraces</h5>
+                                <p class="small">Landscapes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="gallery-item" data-category="nature">
+                        <img src="https://images.unsplash.com/photo-1653688107875-38c6dfe0e59b?w=600" alt="Pine Forest Road">
+                        <div class="gallery-item-overlay">
+                            <div>
+                                <h5 class="fw-bold">Pine Forest Road</h5>
+                                <p class="small">Nature</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="gallery-item" data-category="culture">
+                        <img src="https://images.unsplash.com/photo-1598090847612-dff2becdf0bd?w=600" alt="Mountain Village">
+                        <div class="gallery-item-overlay">
+                            <div>
+                                <h5 class="fw-bold">Mountain Village</h5>
+                                <p class="small">Culture</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="gallery-item" data-category="landscapes">
+                        <img src="https://images.unsplash.com/photo-1500964757637-c85e8a162699?w=600" alt="Mountain Sunset">
+                        <div class="gallery-item-overlay">
+                            <div>
+                                <h5 class="fw-bold">Mountain Sunset</h5>
+                                <p class="small">Landscapes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="gallery-item" data-category="culture">
+                        <img src="https://images.unsplash.com/photo-1489710020360-66e504159b43?w=600" alt="Traditional Culture">
+                        <div class="gallery-item-overlay">
+                            <div>
+                                <h5 class="fw-bold">Traditional Culture</h5>
+                                <p class="small">Culture</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="gallery-item" data-category="agriculture">
+                        <img src="https://images.unsplash.com/photo-1702995878564-17fef6fa4e57?w=600" alt="Vegetable Gardens">
+                        <div class="gallery-item-overlay">
+                            <div>
+                                <h5 class="fw-bold">Vegetable Gardens</h5>
+                                <p class="small">Agriculture</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Info Section -->
+            <div class="card rounded-2xl">
+                <div class="card-body p-5 text-center">
+                    <h2 class="display-6 fw-bold mb-3">Share Your Benguet Experience</h2>
+                    <p class="text-gray-600 mb-4">Have you visited Benguet? We'd love to see your photos! Tag us on social media with #DiscoverBenguet to be featured in our gallery.</p>
+                    <div class="d-flex justify-content-center gap-4 text-emerald-600 fw-semibold">
+                        <span>#DiscoverBenguet</span>
+                        <span>#BenguetPhilippines</span>
+                        <span>#VisitBenguet</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close">
+            <i class="fas fa-times"></i>
+        </button>
+        <img id="lightbox-img" src="" alt="Gallery image">
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <i class="fas fa-mountain text-emerald-600"></i>
+                        <span class="text-white fw-bold">Discover Benguet</span>
+                    </div>
+                    <p class="small">Experience the breathtaking beauty and rich culture of Benguet, the salad bowl of the Philippines.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Quick Links</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="guide.html">Travel Guide</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Contact Info</h3>
+                    <ul class="list-unstyled small">
+                        <li>Email: info@discoverbenguet.com</li>
+                        <li>Phone: +63 123 456 7890</li>
+                        <li>Location: Benguet Province, Philippines</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Discover Benguet. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

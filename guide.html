@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Guide - Discover Benguet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-mountain" style="font-size: 2rem;"></i>
+                <span>Discover Benguet</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="activities.html">Activities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="guide.html">Travel Guide</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="section-padding bg-light-gray">
+        <div class="container">
+            <!-- Header -->
+            <div class="text-center mb-5">
+                <h1 class="display-4 fw-bold mb-4">Travel Guide</h1>
+                <p class="fs-5 text-gray-600">Everything you need to know for a smooth and enjoyable trip to Benguet Province</p>
+            </div>
+
+            <!-- Accordion for Mobile Friendly Guide -->
+            <div class="accordion" id="guideAccordion">
+                <!-- Getting There -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#gettingThere">
+                            <i class="fas fa-car text-emerald-600 me-3"></i> How to Get to Benguet
+                        </button>
+                    </h2>
+                    <div id="gettingThere" class="accordion-collapse collapse show" data-bs-parent="#guideAccordion">
+                        <div class="accordion-body">
+                            <h5>By Bus</h5>
+                            <p>The most common way to reach Benguet from Manila</p>
+                            <ul>
+                                <li><strong>Victory Liner, Genesis, Joy Bus:</strong> Depart from Cubao, Pasay, or Manila terminals</li>
+                                <li><strong>Travel time:</strong> 6-7 hours (depending on traffic and route)</li>
+                                <li><strong>Fare:</strong> ₱450-800 (regular to deluxe)</li>
+                            </ul>
+
+                            <h5 class="mt-4">By Private Vehicle</h5>
+                            <p>Three main routes:</p>
+                            <ul>
+                                <li><strong>Kennon Road:</strong> Scenic but winding; often closed during rainy season</li>
+                                <li><strong>Marcos Highway (via Baguio):</strong> Most stable route</li>
+                                <li><strong>Halsema Highway:</strong> For Mountain Province destinations</li>
+                            </ul>
+
+                            <h5 class="mt-4">By Plane + Bus</h5>
+                            <p>Fly to Clark International Airport (Pampanga), then take a bus to Baguio (2-3 hours)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Accommodation -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accommodation">
+                            <i class="fas fa-hotel text-emerald-600 me-3"></i> Where to Stay
+                        </button>
+                    </h2>
+                    <div id="accommodation" class="accordion-collapse collapse" data-bs-parent="#guideAccordion">
+                        <div class="accordion-body">
+                            <h5>Budget Options (₱500-1,500 per night)</h5>
+                            <ul>
+                                <li>Hostels and dormitories</li>
+                                <li>Budget hotels and inns</li>
+                                <li>Homestays with local families</li>
+                            </ul>
+
+                            <h5 class="mt-4">Mid-Range Options (₱1,500-4,000 per night)</h5>
+                            <ul>
+                                <li>Comfortable hotels with amenities</li>
+                                <li>Bed and breakfast establishments</li>
+                                <li>Transient houses</li>
+                            </ul>
+
+                            <h5 class="mt-4">Luxury Options (₱4,000+ per night)</h5>
+                            <ul>
+                                <li>Premium hotels and resorts</li>
+                                <li>Boutique hotels with mountain views</li>
+                                <li>Private vacation homes and villas</li>
+                            </ul>
+
+                            <div class="alert alert-success mt-4">
+                                <strong>Booking Tips:</strong>
+                                <ul class="mb-0">
+                                    <li>Book in advance during peak season (December-February)</li>
+                                    <li>Check for proximity to main attractions</li>
+                                    <li>Many accommodations offer free breakfast</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Budget -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#budget">
+                            <i class="fas fa-wallet text-emerald-600 me-3"></i> Budget Planning
+                        </button>
+                    </h2>
+                    <div id="budget" class="accordion-collapse collapse" data-bs-parent="#guideAccordion">
+                        <div class="accordion-body">
+                            <h5>Daily Budget Breakdown</h5>
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <td>Accommodation</td>
+                                            <td class="text-end text-emerald-600 fw-bold">₱800-3,000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Meals (3x a day)</td>
+                                            <td class="text-end text-emerald-600 fw-bold">₱500-1,200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Transportation</td>
+                                            <td class="text-end text-emerald-600 fw-bold">₱200-500</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Activities/Entrance Fees</td>
+                                            <td class="text-end text-emerald-600 fw-bold">₱300-800</td>
+                                        </tr>
+                                        <tr class="table-success">
+                                            <td><strong>Total per day</strong></td>
+                                            <td class="text-end fw-bold">₱1,800-5,500</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <h5 class="mt-4">Money-Saving Tips</h5>
+                            <ul>
+                                <li>Eat at local carinderias for authentic and cheap meals</li>
+                                <li>Use jeepneys and tricycles instead of taxis</li>
+                                <li>Visit free attractions like parks and viewpoints</li>
+                                <li>Shop at public markets for souvenirs</li>
+                                <li>Travel during off-peak season for lower prices</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Best Time -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bestTime">
+                            <i class="fas fa-calendar text-emerald-600 me-3"></i> When to Visit
+                        </button>
+                    </h2>
+                    <div id="bestTime" class="accordion-collapse collapse" data-bs-parent="#guideAccordion">
+                        <div class="accordion-body">
+                            <div class="mb-4">
+                                <h5 class="text-emerald-700">Peak Season (November - February)</h5>
+                                <p>Best weather with cool, dry conditions</p>
+                                <ul>
+                                    <li>Temperature: 10-20°C</li>
+                                    <li>Pros: Perfect weather, sea of clouds at Mt. Pulag</li>
+                                    <li>Cons: Crowded, higher prices</li>
+                                </ul>
+                            </div>
+
+                            <div class="mb-4">
+                                <h5>Flower Season (February - March)</h5>
+                                <p>Panagbenga Festival and blooming flowers</p>
+                                <ul>
+                                    <li>Temperature: 12-22°C</li>
+                                    <li>Pros: Colorful festivals, flower gardens in full bloom</li>
+                                    <li>Cons: Very crowded during festival week</li>
+                                </ul>
+                            </div>
+
+                            <div class="mb-4">
+                                <h5>Summer (March - May)</h5>
+                                <p>Warmer but still pleasant</p>
+                                <ul>
+                                    <li>Temperature: 15-25°C</li>
+                                    <li>Pros: Ideal for hiking, less crowded</li>
+                                    <li>Cons: Hotter than usual for Benguet</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h5>Rainy Season (June - October)</h5>
+                                <p>Lush greenery but wet</p>
+                                <ul>
+                                    <li>Temperature: 15-23°C</li>
+                                    <li>Pros: Lowest prices, verdant landscapes</li>
+                                    <li>Cons: Frequent rain, some roads may be closed, landslide risks</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Safety -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#safety">
+                            <i class="fas fa-shield-alt text-emerald-600 me-3"></i> Safety & Health
+                        </button>
+                    </h2>
+                    <div id="safety" class="accordion-collapse collapse" data-bs-parent="#guideAccordion">
+                        <div class="accordion-body">
+                            <h5>Health Reminders</h5>
+                            <ul>
+                                <li>Bring warm clothing; temperatures can drop significantly</li>
+                                <li>Stay hydrated, especially during treks and hikes</li>
+                                <li>Bring medication for altitude sickness if climbing Mt. Pulag</li>
+                                <li>Apply sunscreen; UV rays are stronger at higher altitudes</li>
+                                <li>Drink only bottled or purified water</li>
+                            </ul>
+
+                            <h5 class="mt-4">Travel Safety</h5>
+                            <ul>
+                                <li>Check road conditions, especially during rainy season</li>
+                                <li>Keep valuables secure in crowded areas</li>
+                                <li>Inform someone of your itinerary, especially for treks</li>
+                                <li>Hire registered guides for mountain activities</li>
+                                <li>Keep emergency numbers handy</li>
+                            </ul>
+
+                            <div class="alert alert-warning mt-4">
+                                <i class="fas fa-exclamation-triangle me-2"></i>
+                                <strong>Important Notice:</strong> Always check weather forecasts and local advisories before traveling. Some routes may be closed during typhoons or heavy rain.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Emergency Contacts -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#contacts">
+                            <i class="fas fa-phone text-emerald-600 me-3"></i> Emergency Contacts
+                        </button>
+                    </h2>
+                    <div id="contacts" class="accordion-collapse collapse" data-bs-parent="#guideAccordion">
+                        <div class="accordion-body">
+                            <div class="alert alert-danger">
+                                <h5>Emergency Services</h5>
+                                <ul class="mb-0">
+                                    <li>National Emergency Hotline: 911</li>
+                                    <li>PNP Benguet: (074) 424-5555</li>
+                                    <li>Baguio General Hospital: (074) 442-4216</li>
+                                </ul>
+                            </div>
+
+                            <div class="alert alert-success">
+                                <h5>Tourism Offices</h5>
+                                <ul class="mb-0">
+                                    <li>Benguet Tourism Office: (074) 422-2660</li>
+                                    <li>Baguio Tourism Office: (074) 442-7014</li>
+                                    <li>DOT CAR: (074) 442-6708</li>
+                                </ul>
+                            </div>
+
+                            <div class="alert alert-info">
+                                <h5>Weather & Road Updates</h5>
+                                <ul class="mb-0">
+                                    <li>PAGASA: (074) 442-3341</li>
+                                    <li>DPWH Benguet: (074) 442-4633</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <i class="fas fa-mountain text-emerald-600"></i>
+                        <span class="text-white fw-bold">Discover Benguet</span>
+                    </div>
+                    <p class="small">Experience the breathtaking beauty and rich culture of Benguet, the salad bowl of the Philippines.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Quick Links</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="guide.html">Travel Guide</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Contact Info</h3>
+                    <ul class="list-unstyled small">
+                        <li>Email: info@discoverbenguet.com</li>
+                        <li>Phone: +63 123 456 7890</li>
+                        <li>Location: Benguet Province, Philippines</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Discover Benguet. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
